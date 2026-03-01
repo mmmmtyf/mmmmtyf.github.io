@@ -17,17 +17,17 @@
     <main class="main-content">
       <div class="intro-section">
         <h1 class="intro-title">
-          Hello, I'm <span class="name-gradient">染念</span>👋
+          Hello, I'm <span class="name-gradient">mmmmtyf</span>👋
         </h1>
         <p class="intro-text">
-          <span class="highlight-text">AI infra</span>研究生，目前研究<span
+          <span class="highlight-text">👮</span>本科网安<span
             class="underline-text"
-            >大规模分布式训练</span
-          >以及<span class="highlight-text">扩散模型在短临降水领域</span>的应用
+            >考研ing</span
+          >以及<span class="highlight-text">我想上</span>清华
         </p>
         <p class="intro-text">
-          过去我也学习过<span class="highlight-text">前后端</span
-          >，所以现在也是不专业的全栈开发者
+          业余学习一下<span class="highlight-text">src</span
+          >，hacker
         </p>
         <p class="intro-emoji">🐎 马到成功，心想事成</p>
         <p class="intro-emoji">🌈🌈🌈</p>
@@ -35,7 +35,7 @@
 
       <div class="social-links">
         <a
-          href="https://github.com/dyedd"
+          href="https://github.com/mmmmtyf"
           target="_blank"
           class="social-link"
           title="GitHub"
@@ -46,7 +46,7 @@
           <span class="social-text">GitHub</span>
         </a>
         <a
-          href="mailto:1176996982@qq.com"
+          href="mailto:2123801583@qq.com"
           target="_blank"
           class="social-link"
           title="Email"
@@ -70,10 +70,10 @@
       </div>
 
       <div class="statement-box">
-        我将在这里分享我的<span class="highlight-text">编程</span>和<span
+        我要在这里<span class="highlight-text">打卡</span>和<span
           class="highlight-text"
-          >人工智能</span
-        >知识。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。接下来你可以查看内容或订阅
+          >记录一下今年的学习日常</span
+        >daily。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。接下来你可以查看内容或订阅
         <a class="highlight-text" href="/feed">RSS</a>。
       </div>
 

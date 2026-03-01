@@ -6,5 +6,5 @@ export const siteConfig = {
     url: 'https://dyedd.cn',
     email: '2123801583@qq.com',
     lang: 'zh-CN',
-    startTime: '2017-02-11', // 添加建站时间
+    startTime: '2026-03-01', // 添加建站时间
 }
