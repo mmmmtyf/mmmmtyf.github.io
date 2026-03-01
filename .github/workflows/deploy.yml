@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+on:
+  # 当代码推送到 main 分支时触发自动部署
+  push:
+    branches:
+      - main 
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      # 设置 Node.js 环境
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 安装项目依赖
+      - name: Install dependencies
+        run: pnpm install
+
+      # 执行 Nuxt 静态导出
+      - name: Generate Static Site
+        run: pnpm generate 
+
+      # 上传生成的静态文件 (.output/public 是 Nuxt 生成的静态文件夹)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
