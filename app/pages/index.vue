@@ -16,23 +16,19 @@
 
     <main class="main-content">
       <div class="intro-section">
-        <h1 class="intro-title">
-          Hello, I'm <span class="name-gradient">mmmmtyf</span>👋
-        </h1>
-        <p class="intro-text">
-          <span class="highlight-text">👮</span>本科网安<span
-            class="underline-text"
-            >考研ing</span
-          >以及<span class="highlight-text">我想上</span>清华
-        </p>
-        <p class="intro-text">
-          业余学习一下<span class="highlight-text">src</span
-          >，hacker
-        </p>
-        <p class="intro-emoji">🐎 马到成功，心想事成</p>
-        <p class="intro-emoji">🌈🌈🌈</p>
-      </div>
-
+  <h1 class="intro-title">
+    Hello, I'm <span class="name-gradient">mmmmtyf</span>👋
+  </h1>
+  <p class="intro-text">
+    <span class="highlight-text">🔐</span> 本科网络安全专业，持续学习中
+  </p>
+  <p class="intro-text">
+    业余探索 <span class="highlight-text">SRC</span> 与安全技术
+  </p>
+  <p class="intro-emoji">🐎 稳步前行，未来可期</p>
+  <p class="intro-emoji">💻📚✨</p>
+</div>
+ 
       <div class="social-links">
         <a
           href="https://github.com/mmmmtyf"
