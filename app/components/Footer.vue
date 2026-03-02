@@ -1,11 +1,9 @@
 <template>
   <footer>
     <div>
-      <!-- 替换为你的昵称 mmmmtyf -->
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-        @{{ currentYear }} mmmmtyf🤔
+        @{{ currentYear }} mmmmtyf👮
       </p>
-      <!-- 保留 Powered by 链接（如需删除可直接删掉这整段） -->
       <a
         class="text-sm text-neutral-500 dark:text-neutral-400"
         href="https://github.com/dyedd/serenade"
@@ -15,23 +13,20 @@
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
         本站已运行 {{ runningDays }} 天
       </p>
-      <!-- 备案号已删除 -->
     </div>
     <div
       class="flex flex-wrap items-center justify-center gap-x-4 sm:items-center"
     >
       <p class="text-sm text-neutral-500 dark:text-neutral-400">找到我</p>
-      <!-- 替换为你的 GitHub 用户名 mmmmtyf -->
       <a
         class="inline-block p-2 sm:hover:text-link"
-        href="https://github.com/mmmmtyf"
+        href="https://github.com/dyedd"
         target="_blank"
       >
         <svg class="icon" aria-hidden="true" width="2.2rem" height="2.2rem">
           <use xlink:href="#icon-github"></use>
         </svg>
       </a>
-      <!-- 替换为你的邮箱 menglingxuan111@qq.com -->
       <a
         class="inline-block p-2 sm:hover:text-link"
         href="mailto:menglingxuan111@qq.com"
@@ -41,7 +36,6 @@
           <use xlink:href="#icon-youxiang"></use>
         </svg>
       </a>
-      <!-- QQ 链接已删除 -->
     </div>
   </footer>
 </template>
@@ -64,8 +58,6 @@ const calculateRunningDays = (startTime) => {
   }
 }
 
-// 如需自定义站点运行起始时间，修改 site.config 里的 startTime
-// 若无 site.config，可替换为具体日期，例如：calculateRunningDays("2026-03-02")
 const runningDays = calculateRunningDays(siteConfig.startTime)
 </script>
 
@@ -115,3 +107,16 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: 0.9rem;
+    padding: 1.5rem 0.8rem;
+
+    div.flex {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+</style>
