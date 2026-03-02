@@ -4,7 +4,7 @@
       <div class="avatar-section">
         <div class="avatar-wrapper">
           <img src="/logo.jpg" alt="avatar" class="avatar" />
-          <div class="avatar-badge">🐟</div>
+          <div class="avatar-badge">👮</div>
         </div>
       </div>
 
