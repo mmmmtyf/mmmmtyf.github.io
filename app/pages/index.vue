@@ -42,7 +42,7 @@
           <span class="social-text">GitHub</span>
         </a>
         <a
-          href="mailto:2123801583@qq.com"
+          href="mailto:menglingxuan111@qq.com"
           target="_blank"
           class="social-link"
           title="Email"
@@ -52,17 +52,6 @@
           </svg>
           <span class="social-text">Email</span>
         </a>
-        <a
-          href="https://qm.qq.com/cgi-bin/qm/qr?k=nLIdzy8UC9VkZ0g2EwnoN1rwnxaYvFx0&jump_from=webapi&authKey=mq2RvfcTQxEgImX+XZv0tBeobeHX+wTaAxOXq7pEKdsUD+a2Hi7mIOBGEj2ZtSDJ"
-          target="_blank"
-          class="social-link"
-          title="QQ"
-        >
-          <svg class="icon" aria-hidden="true" width="1.5rem" height="1.5rem">
-            <use xlink:href="#icon-QQ"></use>
-          </svg>
-          <span class="social-text">QQ</span>
-        </a>
       </div>
 
       <div class="statement-box">
@@ -70,13 +59,13 @@
           class="highlight-text"
           >记录一下今年的学习日常</span
         >daily。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。接下来你可以查看内容或订阅
-        <a class="highlight-text" href="/feed">RSS</a>。
+        。
       </div>
 
       <div class="github-contribution">
         <h3 class="section-title">GitHub Contributions</h3>
         <img
-          src="https://ghchart.rshah.org/409ba5/dyedd"
+          src="https://ghchart.rshah.org/409ba5/mmmmtyf"
           alt="GitHub Contribution Chart"
           class="contribution-chart"
         />
