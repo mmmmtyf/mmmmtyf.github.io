@@ -32,7 +32,7 @@
           <p class="text-neutral-600 dark:text-neutral-400 mb-4">
             请将你的友链信息按照以下格式发送至
             <a
-              href="mailto:1176996982@qq.com"
+              href="mailto:menglingxuan111@qq.com"
               class="text-primary-500 hover:underline font-medium"
               >邮箱</a
             >

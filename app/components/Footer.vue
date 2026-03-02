@@ -1,9 +1,11 @@
 <template>
   <footer>
     <div>
+      <!-- 替换为你的昵称 mmmmtyf -->
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-        @{{ currentYear }} 染念🤔
+        @{{ currentYear }} mmmmtyf🤔
       </p>
+      <!-- 保留 Powered by 链接（如需删除可直接删掉这整段） -->
       <a
         class="text-sm text-neutral-500 dark:text-neutral-400"
         href="https://github.com/dyedd/serenade"
@@ -13,45 +15,33 @@
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
         本站已运行 {{ runningDays }} 天
       </p>
-      <a
-        class="text-sm text-neutral-500 dark:text-neutral-400"
-        href="https://beian.miit.gov.cn/"
-        target="_blank"
-        >备案号:浙ICP备19020194号-1</a
-      >
+      <!-- 备案号已删除 -->
     </div>
     <div
       class="flex flex-wrap items-center justify-center gap-x-4 sm:items-center"
     >
       <p class="text-sm text-neutral-500 dark:text-neutral-400">找到我</p>
+      <!-- 替换为你的 GitHub 用户名 mmmmtyf -->
       <a
         class="inline-block p-2 sm:hover:text-link"
-        href="https://github.com/dyedd"
+        href="https://github.com/mmmmtyf"
         target="_blank"
       >
         <svg class="icon" aria-hidden="true" width="2.2rem" height="2.2rem">
           <use xlink:href="#icon-github"></use>
         </svg>
       </a>
+      <!-- 替换为你的邮箱 menglingxuan111@qq.com -->
       <a
         class="inline-block p-2 sm:hover:text-link"
-        href="mailto:1176996982@qq.com"
+        href="mailto:menglingxuan111@qq.com"
         target="_blank"
       >
         <svg class="icon" aria-hidden="true" width="2.2rem" height="2.2rem">
           <use xlink:href="#icon-youxiang"></use>
         </svg>
       </a>
-      <a
-        class="inline-block p-2 sm:hover:text-link"
-        href="https://qm.qq.com/cgi-bin/qm/qr?k=nLIdzy8UC9VkZ0g2EwnoN1rwnxaYvFx0&jump_from=webapi&authKey=mq2RvfcTQxEgImX+XZv0tBeobeHX+wTaAxOXq7pEKdsUD+a2Hi7mIOBGEj2ZtSDJ"
-        target="_blank"
-        title="加入交流群：972781001"
-      >
-        <svg class="icon" aria-hidden="true" width="2.2rem" height="2.2rem">
-          <use xlink:href="#icon-QQ"></use>
-        </svg>
-      </a>
+      <!-- QQ 链接已删除 -->
     </div>
   </footer>
 </template>
@@ -74,6 +64,8 @@ const calculateRunningDays = (startTime) => {
   }
 }
 
+// 如需自定义站点运行起始时间，修改 site.config 里的 startTime
+// 若无 site.config，可替换为具体日期，例如：calculateRunningDays("2026-03-02")
 const runningDays = calculateRunningDays(siteConfig.startTime)
 </script>
 
@@ -123,16 +115,3 @@ footer {
     }
   }
 }
-
-@media screen and (max-width: 480px) {
-  footer {
-    font-size: 0.9rem;
-    padding: 1.5rem 0.8rem;
-
-    div.flex {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-}
-</style>
