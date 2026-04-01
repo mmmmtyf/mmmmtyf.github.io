@@ -1,7 +1,13 @@
 import fs from 'fs'
 import path from 'path'
+import { fileURLToPath } from 'url'
 import matter from 'gray-matter'
 import { normalizeTags } from '../utils.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const directoryPath = path.join(__dirname, '..', '..', 'content', 'posts')
 
 const readTagsFromMarkdown = (filePath) => {
   const raw = fs.readFileSync(filePath, 'utf-8')
@@ -29,7 +35,6 @@ const countTagsInDirectory = (dirPath) => {
 }
 
 export default defineEventHandler(() => {
-  const directoryPath = path.join('content/posts')
   const entries = fs.readdirSync(directoryPath, { withFileTypes: true })
 
   const tagCounts = entries.reduce((counts, entry) => {

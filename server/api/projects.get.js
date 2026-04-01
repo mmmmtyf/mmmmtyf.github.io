@@ -1,9 +1,13 @@
 import { readFileSync, existsSync } from 'fs'
-import { join } from 'path'
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
 import { parsePagination } from '../utils.js'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
 const readProjectsData = () => {
-  const dataPath = join(process.cwd(), 'content', 'projects.json')
+  const dataPath = join(__dirname, '..', '..', 'content', 'projects.json')
 
   if (!existsSync(dataPath)) {
     throw createError({
