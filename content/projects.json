@@ -1,9 +1,17 @@
-[
-  {
-    "name": "考研打卡系统",
-    "description": "二战考研每日学习记录",
-    "url": "/posts",
-    "category": "学习",
-    "tags": ["考研", "打卡", "笔记"]
+{
+  "categories": {
+    "study": {
+      "name": "学习",
+      "icon": "📚",
+      "projects": [
+        {
+          "name": "考研打卡系统",
+          "description": "二战考研每日学习记录",
+          "url": "/posts",
+          "date": "2026-04-01",
+          "tags": ["考研", "打卡", "笔记"]
+        }
+      ]
+    }
   }
-]
+}
