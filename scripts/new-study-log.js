@@ -129,8 +129,8 @@ tags:
 
 ## 🔗 相关链接
 
-- [昨日打卡](./${dateObj.subtract(1, 'day').format('YYYY-MM-DD')}-day${dayCount - 1})
-- [明日打卡](./${dateObj.add(1, 'day').format('YYYY-MM-DD')}-day${dayCount + 1})（待创建）
+<!-- 打卡导航 -->
+- [查看所有打卡](/posts)
 
 ---
 
