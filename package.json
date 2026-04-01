@@ -9,6 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "new:post": "node --env-file-if-exists=.env scripts/new-post.js",
+    "new:study-log": "node --env-file-if-exists=.env scripts/new-study-log.js",
     "new:column": "node --env-file-if-exists=.env scripts/new-column.js",
     "sync": "node --env-file-if-exists=.env scripts/sync.js"
   },
