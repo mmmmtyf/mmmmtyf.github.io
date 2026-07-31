@@ -20,12 +20,12 @@
     Hello, I'm <span class="name-gradient">mmmmtyf</span>👋
   </h1>
   <p class="intro-text">
-    <span class="highlight-text">🔐</span> 如果现在的结局还不够好，说明故事还没有结束。如果现在的结局还不够好，说明故事还没有结束。
+    <span class="highlight-text">🔐</span> 如果现在的结局还不够好，说明故事还没有结束。
   </p>
   <p class="intro-text">
     快<span class="highlight-text">去</span> 学习
   </p>
-  <p class="intro-emoji">🐎 稳步前行，未来可期</p>
+  <p class="intro-emoji">🐎 稳步前行.</p>
   <p class="intro-emoji">💻📚✨</p>
 </div>
  
@@ -55,10 +55,9 @@
       </div>
 
       <div class="statement-box">
-        我要在这里<span class="highlight-text">打卡</span>和<span
-          class="highlight-text"
-          >记录一下今年的学习日常</span
-        >daily。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。接下来你可以查看内容或订阅
+        我要在这里打卡和
+          记录一下我的学习日常,顺便督促一下自己
+        实际上是为了墨鱼。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。
         。
       </div>
 
