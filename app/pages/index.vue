@@ -23,7 +23,7 @@
     <span class="highlight-text">🔐</span> 如果现在的结局还不够好，说明故事还没有结束。
   </p>
   <p class="intro-text">
-    快<span class="highlight-text">去</span> 学习
+    快去学习
   </p>
   <p class="intro-emoji">🐎 稳步前行.</p>
   <p class="intro-emoji">💻📚✨</p>
@@ -55,10 +55,9 @@
       </div>
 
       <div class="statement-box">
-        我要在这里打卡和
-          记录一下我的学习日常,顺便督促一下自己
-        实际上是为了墨鱼。如果你对这些主题感兴趣，那么恭喜你找到宝藏了。
-        。
+        我要在这里打卡和记录一下我的学习日常,顺便督促一下自己(实际上是为了摸鱼)。
+        如果你对这些主题感兴趣，那么恭喜你找到宝藏了。
+    
       </div>
 
       <div class="github-contribution">
